@@ -34,7 +34,7 @@ $sql = "INSERT INTO `test`.`hotel` ( `name`, `age`, `gender`, `phone`, `email`) 
  <h2>welcome to hotel management system</h2>
  <p>Enter your details</p>
 
- <form action="conn.php" method="post">
+ <form action="index.php" method="post">
      <input type="text" name="name" id="name" placeholder="Enter your name">
      <input type="text" name="age" id="age" placeholder="Enter your age">
      <input type="text" name="gender" id="gender" placeholder="Enter your gender">
