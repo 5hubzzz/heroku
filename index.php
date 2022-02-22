@@ -1,27 +1,3 @@
-<?php
-
-$server = "localhost";
-$usename = "root";
-$password = "";
-
-$con = mysqli_connect($server, $usename, $password);
-
-/*if(!$con)
-{
-    die("connection is failed due to some error!");
-}
-echo "connection  is success!";*/
-
-$name = $_POST['name'];
-$age = $_POST['age'];
-$gender = $_POST['gender'];
-$phone = $_POST['phone'];
-$email = $_POST['email'];
-$sql = "INSERT INTO `test`.`hotel` ( `name`, `age`, `gender`, `phone`, `email`) VALUES ( '$name', '$age', '$gender', '$phone', '$email');"
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
